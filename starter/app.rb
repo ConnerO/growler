@@ -15,9 +15,10 @@ end
 
 post '/wall' do
 
-	session[:growl_array] << params[:new_growl]
+	# session[:new_growl] << params[:new_growl]
 		
 	@new_growl = params[:new_growl]
 
 	erb :wall
 end
+
