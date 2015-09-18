@@ -13,20 +13,19 @@ get '/' do
 	erb :index
 end
 
-get '/wall' do
+ get '/wall_list' do
 
+ 	# session[:growl_array] << params[:new_growl]
 	@growl_array = session[:growl_array]
 
-	erb :wall
-end
+ 	erb :wall_list
+ end
 
 
 
 
 post '/wall' do
 
-
-	
 
 	session[:growl_array] << params[:new_growl]
 		
