@@ -1,0 +1,20 @@
+body {
+	background-image: url("../images/DMX.jpg");
+	background-size: cover;
+}
+
+
+li	{
+	list-style: none;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 2em;
+	color: orange;
+	padding: 2% 0;
+	margin: 1% 0;
+	background-color: rgba(0,0,0,0.5)
+}
+
+/*#rightside {
+	background-image: url("../images/DMX.jpg");
+}*/
