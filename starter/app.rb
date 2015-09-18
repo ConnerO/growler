@@ -15,12 +15,12 @@ end
 
  get '/wall_list' do
 
- 	# session[:growl_array] << params[:new_growl]
+ 	
+
 	@growl_array = session[:growl_array]
 
  	erb :wall_list
  end
-
 
 
 
