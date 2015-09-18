@@ -11,9 +11,13 @@
 
 	<h4>Growled:</h4>
 
-	<%= @growl_array %>
+<!-- 	<%= @growl_array %> -->
 	
-
+	<ul id="growl_wall_list">
+	<% @growl_array.each do |item| %>
+		<li><%= item %></li>
+	<% end %>
+	</ul>
 
 
 
